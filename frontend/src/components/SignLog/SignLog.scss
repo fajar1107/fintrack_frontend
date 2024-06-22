@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.signlog-body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .sign-log {
+        background-color: #ffffff;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        .illustration {
+            width: 300px;
+            height: 300px;
+        }
+
+        .title,
+        .para {
+            color: #212325;
+            font-family: Inter;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .para {
+            color: #bbbbc3;
+            padding-top: 0;
+            margin-top: 0;
+            padding-bottom: 30px;
+            font-size: 15px;
+        }
+
+        .sign-btn,
+        .log-btn {
+            background-color: #7f3dff;
+            color: #ffffff;
+            width: 350px;
+            height: 60px;
+            font-size: 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 20px;
+            font-family: Inter;
+        }
+
+        .log-btn {
+            background-color: #eee5ff;
+            color: #7f3dff;
+        }
+    }
+}
